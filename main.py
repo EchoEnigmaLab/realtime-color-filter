@@ -26,7 +26,7 @@ def apply_color_filter(image, filter_type):
 
     return filtered_image
 
-image_path = 'example.jpg'  
+image_path = 'nature.jpg'  
 image = cv2.imread(image_path)
 if image is None:
     print("Error: Image not found!")
